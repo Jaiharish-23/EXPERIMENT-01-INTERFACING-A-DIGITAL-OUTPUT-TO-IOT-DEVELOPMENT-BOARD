@@ -98,11 +98,41 @@ With its power-efficient design, built-in LoRaWAN support, and flexible communic
 
 ## STM 32 CUBE PROGRAM
 
-```
-// Your STM 32 CUBE Program code here
+```C
+#include "main.h"
+
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+
+int main(void)
+{
+ 
+  HAL_Init();
+
+  SystemClock_Config();
+
+  MX_GPIO_Init();
+ 
+  while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_SET);
+	  HAL_Delay(5000);
+	  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_RESET);
+	  HAL_Delay(5000);
+
+
+  }
+}
 ```
 
 ## OUTPUT
+LED ON:
+
+<img width="401" height="529" alt="image" src="https://github.com/user-attachments/assets/7929a49d-0e6b-4d01-9f15-03df2bfc70bd" />
+
+LED OFF:
+
+<img width="513" height="232" alt="488896528-2fbff617-d512-48c3-ac8e-0e8b8fce1ddc" src="https://github.com/user-attachments/assets/b5df33c9-55c7-4626-bccf-898674cdc1da" />
 
 ## Result
 
