@@ -5,7 +5,7 @@
 
 **NAME: JAI HARISH R**
 
-**ROLL NO:212224040124**
+**ROLL NO: 212224040124**
 
 **DEPARTMENT: CSE**
 
@@ -128,11 +128,13 @@ int main(void)
 ## OUTPUT
 LED ON:
 
-<img width="401" height="529" alt="image" src="https://github.com/user-attachments/assets/7929a49d-0e6b-4d01-9f15-03df2bfc70bd" />
+![477971517-fe488d2c-1f76-4c76-9b82-4580cb936517](https://github.com/user-attachments/assets/8a7ff1b8-efac-4116-a7d6-6a8a6302b63e)
+
 
 LED OFF:
 
-<img width="513" height="232" alt="488896528-2fbff617-d512-48c3-ac8e-0e8b8fce1ddc" src="https://github.com/user-attachments/assets/b5df33c9-55c7-4626-bccf-898674cdc1da" />
+![477971670-8f5fb114-0406-4457-9847-78734275bd1f](https://github.com/user-attachments/assets/540ed3b3-6373-408d-b511-a2cc31a24056)
+
 
 ## Result
 
